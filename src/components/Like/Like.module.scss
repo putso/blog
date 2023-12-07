@@ -1,0 +1,21 @@
+.like {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  input {
+    position: absolute;
+    appearance: none;
+    outline: none;
+    border: none;
+  }
+  input:focus-visible + svg {
+    outline: 4px solid #91caff;
+    outline-offset: 1px;
+    transition:
+      outline-offset 0s,
+      outline 0s;
+    border-radius: 20px;
+  }
+  //styleName: @font-size-sm: 12px;
+}

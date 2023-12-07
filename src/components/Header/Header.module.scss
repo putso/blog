@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+    padding: 16px 22px 13px 16px;
+    gap: 19px;
+    align-items: center;
+    .name {
+        margin-right: auto;
+    }
+    .btn_green {
+        background-color: inherit;
+        color: green;
+        border-color: green;
+    }
+}
