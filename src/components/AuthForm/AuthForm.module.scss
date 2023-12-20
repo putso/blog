@@ -1,0 +1,20 @@
+.form {
+  margin: 0 auto;
+  padding: 20px;
+  width: 400px;
+  .submit {
+    width: 100%;
+  }
+  .center {
+    text-align: center;
+  }
+  .footer__text {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #8C8C8C;
+  }
+}

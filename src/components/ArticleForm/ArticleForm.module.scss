@@ -1,0 +1,44 @@
+.article-form {}
+.center {
+    margin: 0 auto;
+    text-align: center;
+}
+.tags__list {
+}
+.tags {
+    display: flex;
+
+}
+.tag_add {
+    align-self: flex-end;
+    margin-bottom: 24px;
+    margin-left: 20px;
+}
+.tag {
+    width: 300px;
+}
+.line {
+    display: flex;
+    gap: 17px;
+}
+.form {
+    margin: 0 auto;
+    padding: 20px;
+    width: 938px;
+    .submit {
+        width: 300px;
+    }
+    .center {
+      text-align: center;
+    }
+    .footer__text {
+      font-family: Roboto;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 0em;
+      text-align: center;
+      color: #8C8C8C;
+    }
+  }
+  

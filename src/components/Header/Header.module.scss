@@ -1,14 +1,47 @@
 .header {
+  display: flex;
+  padding: 16px 22px 13px 16px;
+  gap: 19px;
+  align-items: center;
+  .name {
+    margin-right: auto;
+    text-decoration: none;
+    color: black;
+    :visited {
+      color: none;
+      text-decoration: none;
+    }
+  }
+  .btn {
+    background-color: inherit;
+  }
+  .btn__black {
+    border-color: #000000bf;
+    color: #000000bf;
+  }
+  .profile {
     display: flex;
-    padding: 16px 22px 13px 16px;
-    gap: 19px;
     align-items: center;
+    gap: 12px;
+    text-decoration: none;
+    color: inherit;
+  }
+  .user {
+    display: flex;
+    align-items: center;
+    gap: 12px;
     .name {
-        margin-right: auto;
+      font-size: 18px;
+      line-height: 28px;
     }
-    .btn_green {
-        background-color: inherit;
-        color: green;
-        border-color: green;
+    .date {
+      font-size: 12px;
+      line-height: 22px;
+      color: #00000080;
     }
+  }
+}
+.btn__green {
+  color: #52c41a;
+  border-color: #52c41a;
 }
