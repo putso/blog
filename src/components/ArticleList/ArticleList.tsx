@@ -1,22 +1,10 @@
 import Article from "../Article";
 import style from "./ArticleList.module.scss";
-import {
-  Await,
-  redirect,
-  useLoaderData,
-  useLocation,
-  useNavigate,
-} from "react-router";
+import { useLoaderData } from "react-router";
 import { article } from "@/types";
 import { Pagination, Spin } from "antd";
-import {
-  useFormAction,
-  useLinkClickHandler,
-  useSearchParams,
-  useSubmit,
-} from "react-router-dom";
-import React, { ReactElement, useEffect, useState } from "react";
-import { ArticlesResponse, getArticle, getArticles } from "@/api/articles";
+import { useSubmit } from "react-router-dom";
+import { ArticlesResponse, getArticles } from "@/api/articles";
 import Supsense from "../Supsense";
 export type pagination = {
   response: {

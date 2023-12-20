@@ -1,4 +1,3 @@
-import React from "react";
 import style from "./Loader.module.scss";
 import { Spin } from "antd";
 

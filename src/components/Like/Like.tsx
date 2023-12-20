@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import style from "./Like.module.scss";
 import activeSrc from "@/assets/active_heart.svg";
 import emptySrc from "@/assets/empty_heart.svg";

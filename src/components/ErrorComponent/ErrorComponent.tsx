@@ -1,4 +1,3 @@
-import React from "react";
 import style from "./ErrorComponent.module.scss";
 import { Alert } from "antd";
 

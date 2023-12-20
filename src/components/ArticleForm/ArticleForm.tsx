@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import style from "./ArticleForm.module.scss";
 import { ArticleFormData, createArticle, editArticle } from "@/api/articles";
 import ControlFormInput from "../ControlFormInput";

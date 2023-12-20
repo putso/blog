@@ -1,4 +1,3 @@
-import React from "react";
 import style from "./ControlFormInput.module.scss";
 import {
   Control,
